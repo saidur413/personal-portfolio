@@ -16,8 +16,11 @@ h1{
     font-weight: 700;
     border-radius: 5px;
 }
-.container{
+section{
     display: flex;
+    margin-bottom: 100px;
+}
+.top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -27,5 +30,10 @@ h1{
 }
 .half-width img{
     width: 80%;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
